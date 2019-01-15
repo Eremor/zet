@@ -4,4 +4,6 @@
   font-family: 'Airbag';
   src: url("./fonts/AirbagFree-Regular.ttf") format('truetype');
   src: url("./fonts/AirbagFree-Regular.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
