@@ -262,21 +262,24 @@ nav{
   font-size: 1.5em;
   font-weight: 700;
   padding-top: 99px;
+  text-transform: uppercase;
 }
 
 .services__text{
   margin-top: 16px;
-  margin-bottom: 77px;
+  margin-bottom: 80px;
+  font-size: 0.9em;
   position: relative;
 }
 
 .services__text::after{
   content: '';
   width: 42px;
-  height: 1px;
+  height: 2px;
   background-color: #29323c;
-  top: 20px;
-  left: 50%;
+  position: absolute;
+  top: 35px;
+  left: 48%;
 }
 
 .services-group{
