@@ -152,11 +152,15 @@ nav{
   position: absolute;
   right: 0;
   top: 35px;
-  font-family:
+  font-family: 'Montserrat', sans-serif;
 }
 
 .menu-item{
   color: #e8e8e8;
+}
+
+.menu-item:hover{
+  color: #ffffff;
 }
 
 .navbar__menu li{
@@ -165,6 +169,28 @@ nav{
 
 .navbar__menu li:hover{
   transform: scale(1.2);
+}
+
+.navbar__menu li:hover::after{
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 7px;
+  left: -15px;
+  animation-name: menu-item-dash;
+  animation-duration: 0.5s;
+}
+
+@keyframes menu-item-dash {
+  0%{
+    top: 0;
+  }
+  100%{
+    top: 7px;
+  }
 }
 
 .home{
