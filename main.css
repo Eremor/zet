@@ -23,7 +23,8 @@ body{
 
 h1,
 h2,
-h3{
+h3,
+h4{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
@@ -72,6 +73,38 @@ li{
 .btn_primary:hover{
   background-color: #e8e8e8;
   color: #29323c;
+}
+
+.section__title{
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-top: 99px;
+  text-transform: uppercase;
+}
+
+.section__title-text{
+  margin-top: 16px;
+  margin-bottom: 93px;
+  font-size: 0.9em;
+  position: relative;
+}
+
+.section__title-text::after{
+  content: '';
+  width: 42px;
+  height: 2px;
+  background-color: #29323c;
+  position: absolute;
+  top: 36px;
+  left: 48%;
+}
+
+.section__title_white{
+  color: #e8e8e8;
+}
+
+.section__title-text_white{
+  color: #e8e8e8;
 }
 
 /* Header */
@@ -256,30 +289,6 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.services__title{
-  font-size: 1.5em;
-  font-weight: 700;
-  padding-top: 99px;
-  text-transform: uppercase;
-}
-
-.services__text{
-  margin-top: 16px;
-  margin-bottom: 80px;
-  font-size: 0.9em;
-  position: relative;
-}
-
-.services__text::after{
-  content: '';
-  width: 42px;
-  height: 2px;
-  background-color: #29323c;
-  position: absolute;
-  top: 35px;
-  left: 48%;
 }
 
 .services-group{
