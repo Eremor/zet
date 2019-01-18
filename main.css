@@ -17,7 +17,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   color: #29323c;
   word-wrap: break-word;
-  overflow: hidden;
+  overflow-x: hidden;
   text-align: center;
 }
 
@@ -244,4 +244,66 @@ nav{
   position: absolute;
   left: 24px;
   top: 51px;
+}
+
+/* Services section */
+#services-s{
+  background-color: #f5f5f5;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services__title{
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-top: 99px;
+}
+
+.services__text{
+  margin-top: 16px;
+  margin-bottom: 77px;
+  position: relative;
+}
+
+.services__text::after{
+  content: '';
+  width: 42px;
+  height: 1px;
+  background-color: #29323c;
+  top: 20px;
+  left: 50%;
+}
+
+.services-group{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 78px;
+}
+
+.services-item{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.services-item__img{
+  margin-bottom: 37px;
+}
+
+.services-item__title{
+  margin-bottom: 25px;
+  font-size: 1.025em;
+  font-weight: bold;
+}
+
+.services-item__text{
+  font-size: 0.9em;
 }
