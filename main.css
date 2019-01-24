@@ -368,3 +368,90 @@ nav{
   margin-bottom: 10px;
   font-size: 1.125em;
 }
+
+/* Rewiews section */
+.slider{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1170px;
+}
+
+.slider-inner{
+  overflow: hidden;
+}
+
+.slider-slides{
+  width: 300%;
+  transition: transform 1s ease;
+}
+
+.slides-item{
+  float: left;
+  width: 1170px;
+  height: 100%;
+}
+
+.slider-controls{
+  order: 1;
+}
+
+.slider-controls label{
+  display: inline-block;
+  margin: 0 5px;
+  margin-bottom: 100px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 1px solid #2b3746;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+}
+
+.slider input[type="radio"]{
+  display: none;
+}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"]{
+  background-color: #2b3746;
+}
+
+#btn-1:checked ~ .slider-inner .slider-slides {
+  transform: translate(0);
+}
+
+#btn-2:checked ~ .slider-inner .slider-slides {
+  transform: translate(-1170px);
+}
+
+#btn-3:checked ~ .slider-inner .slider-slides {
+  transform: translate(-2340px);
+}
+
+.slides-item__symbol{
+  padding-top: 26px;
+  font-size: 2em;
+  color: #959ba2;
+}
+
+.slides-item__text{
+  line-height: 2;
+}
+
+.slides-item-person{
+  margin: 37px 0;
+}
+
+.slides-item-person__name{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.slides-item-person__prof{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
