@@ -553,6 +553,10 @@ nav{
   margin: 0 2.5px;
 }
 
+.social-item:hover{
+  transform: scale(1.2);
+}
+
 .social-item__icon{
   font-size: 14px;
   color: #e8e8e8;
