@@ -561,3 +561,15 @@ nav{
   font-size: 14px;
   color: #e8e8e8;
 }
+
+/* Partners section */
+#partners-s{
+  background-color: #f5f5f5;
+}
+
+.partners{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 45px 0;
+}
