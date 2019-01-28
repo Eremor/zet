@@ -75,6 +75,17 @@ li{
   color: #29323c;
 }
 
+.btn_secondary{
+  border: 1px solid #29323c;
+  color: #e8e8e8;
+  background-color: #29323c;
+}
+
+.btn_secondary:hover{
+  color: #29323c;
+  background-color: #e8e8e8;
+}
+
 .section__title{
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
@@ -572,4 +583,99 @@ nav{
   justify-content: space-around;
   align-items: center;
   padding: 45px 0;
+}
+
+/* Pricing section */
+.pricing-cards-group{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.pricing-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  flex-basis: 33.3%;
+}
+
+.pricing-card_offer{
+  padding-top: -40px;
+  border-top: 4px solid #313233;
+}
+
+.pricing-card-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 0;
+  height: 160px;
+  border: 1px solid #eeeeee;
+}
+
+.pricing-card-head_offer{
+  height: 195px;
+}
+
+.pricing-card-head__tittle{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #485563;
+}
+
+.pricing-card-head_offer .pricing-card-head__tittle{
+  color: #29323c;
+}
+
+.pricing-card-head__price{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.813em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #485563;
+}
+
+.pricing-card-head_offer .pricing-card-head__price{
+  color: #29323c;
+}
+
+.pricing-card-head__desc{
+  font-size: 0.875em;
+  text-transform: uppercase;
+  color: #97999d;
+}
+
+.pricing-card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 340px;
+  border: 1px solid #eeeeee;
+}
+
+.pricing-card-body-textarea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.pricing-card-body-textarea__text{
+  width: 78%;
+  line-height: 2.5;
+  font-size: 0.875em;
+}
+
+.pricing__btn{
+  margin: 35px 0;
+  bottom: 0;
 }
