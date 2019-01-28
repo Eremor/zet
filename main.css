@@ -159,32 +159,9 @@ nav{
 }
 
 .navbar__burger{
-  width: 21px;
-  height: 2px;
+  font-size: 1.75em;
   margin-left: 18px;
-  position: relative;
-  background-color: #e8e8e8;
   cursor: pointer;
-}
-
-.navbar__burger::after{
-  content: '';
-  width: 21px;
-  height: 2px;
-  background-color: #e8e8e8;
-  position: absolute;
-  top: -8px;
-  left: 0;
-}
-
-.navbar__burger::before{
-  content: '';
-  width: 21px;
-  height: 2px;
-  background-color: #e8e8e8;
-  position: absolute;
-  top: 8px;
-  left: 0;
 }
 
 #toggle{
@@ -540,12 +517,12 @@ nav{
 }
 
 .card-info__name{
-  font-size: 15px;
+  font-size: 0.938em;
 }
 
 .card-info__position{
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 0.875em;
   margin-top: 10px;
 }
 
@@ -569,7 +546,7 @@ nav{
 }
 
 .social-item__icon{
-  font-size: 14px;
+  font-size: 0.875em;
   color: #e8e8e8;
 }
 
@@ -818,6 +795,6 @@ nav{
 }
 
 .footer-social-icon__item{
-  color: #e8e8e8;
+  color: #ffffff;
   font-size: 0.65em;
 }
