@@ -25,7 +25,7 @@
               <li><a class="menu-item" href="#team-s">Team</a></li>
               <li><a class="menu-item" href="#partners-s">Partners</a></li>
               <li><a class="menu-item" href="#pricing-s">Pricing</a></li>
-              <li><a class="menu-item" href="#">Contacts</a></li>
+              <li><a class="menu-item" href="#contacts-s">Contacts</a></li>
             </ul>
           </div>
         </nav>
@@ -430,6 +430,32 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section id=contacts-s>
+        <div class="map">
+          <img src="./img/map_img.jpg" alt="location of our office" class="map__img">
+        </div>
+        <div class="contacts">
+          <form class="contacts-form">
+            <div class="form-item">
+              <label for="client-name" class="form-item__label">Name</label>
+              <input type="text" name="client-name" id="client-name" class="form-item__input" required>
+            </div>
+            <div class="form-item">
+              <label for="client-email" class="form-item__label">Email</label>
+              <input type="email" name="client-email" id="client-email" class="form-item__input" required>
+            </div>
+            <div class="form-item">
+              <label for="client-phone" class="form-item__label">Phone</label>
+              <input type="tel" name="client-phone" id="client-phone" class="form-item__input" required>
+            </div>
+            <div class="form-item">
+              <label for="client-message" class="form-item__label">Message</label>
+              <textarea type="textarea" name="client-message" id="client-message" class="form-item__input form-item__input_message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn_submit contacts__btn">Submit</button>
+          </form>
         </div>
       </section>
     </main>
