@@ -143,7 +143,7 @@ nav{
   font-size: 3em;
   margin: 20px 0;
   letter-spacing: 4px;
-  text-shadow: black 1px 1px 2px;
+  text-shadow: 1px 1px 2px black;
 }
 
 .navbar{
@@ -761,4 +761,63 @@ nav{
 
 .contacts__btn{
   float: right;
+}
+/* Footer */
+.footer-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo_footer{
+  font-size: 2.250em;
+  text-shadow: none;
+  margin: 0;
+  margin-right: 25px;
+}
+
+.footer-logo__text{
+  font-size: 0.875em;
+}
+
+.footer-social{
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-text{
+  font-size: 0.875em;
+  margin-right: 20px;
+}
+
+.footer-social-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-icon{
+  width: 36px;
+  height: 36px;
+  background-color: #525961;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.footer-social-icon:hover{
+  transform: scale(1.2);
+}
+
+.footer-social-icon__item{
+  color: #e8e8e8;
+  font-size: 0.65em;
 }
